@@ -4,7 +4,7 @@
         // get the input box value
         let inputVal = document.getElementById('email').value;
         // Regex value
-        let nameRegex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+        let emailRegex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
         // Conditions
         if (inputVal === '')
         {
